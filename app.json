@@ -1,0 +1,68 @@
+{
+    "id": "7a8cd36b-5f7b-4177-bd7f-bfc9be908bf8",
+    "version": "3.0.0",
+    "requiredApiVersion": "^1.29.1",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Murtaza Patrawala",
+        "homepage": "https://github.com/AddReminders/Reminders-in-RocketChat",
+        "support": "https://github.com/AddReminders/Reminders-in-RocketChat"
+    },
+    "name": "Reminder Bot",
+    "nameSlug": "remind",
+    "classFile": "RemindApp.ts",
+    "description": "Remind yourself to do things. Automate reminders for you or your team and keep your work and personal life organized with reminders, right from Rocket.Chat.",
+    "implements": [
+        "IUIKitInteractionHandler"
+    ],
+    "permissions": [
+        {
+            "name": "networking"
+        },
+        {
+            "name": "persistence"
+        },
+        {
+            "name": "slashcommand"
+        },
+        {
+            "name": "api"
+        },
+        {
+            "name": "message.write"
+        },
+        {
+            "name": "message.read"
+        },
+        {
+            "name": "room.write"
+        },
+        {
+            "name": "ui.interact"
+        },
+        {
+            "name": "ui.registerButtons"
+        },
+        {
+            "name": "room.read"
+        },
+        {
+            "name": "server-setting.read"
+        },
+        {
+            "name": "user.read"
+        },
+        {
+            "name": "user.write"
+        },
+        {
+            "name": "scheduler"
+        },
+        {
+            "name": "upload.write"
+        },
+        {
+            "name": "upload.read"
+        }
+    ]
+}
