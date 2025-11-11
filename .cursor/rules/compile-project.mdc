@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+
+To compile the project, run the following command: `rc-apps package`
